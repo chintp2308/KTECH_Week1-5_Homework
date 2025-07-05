@@ -1,0 +1,87 @@
+.productCard {
+  border: 1px solid #ccc;
+  padding: 7px;
+  width: 200px;
+  position: relative;
+  height: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.productName {
+  font-size: 14px;
+}
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  color: #5c9f85;
+}
+.productQuantity {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productQuantityContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #5c9f85;
+  border-radius: 6px;
+  overflow: hidden;
+
+  height: 30px;
+}
+
+.productQuantityButton {
+  background: none;
+  border: none;
+  color: #5c9f85;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.productQuantityNumber {
+  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #5c9f85;
+  font-weight: 500;
+  background: #fff;
+  border-left: 1px solid #5c9f85;
+  border-right: 1px solid #5c9f85;
+  height: 36px;
+  line-height: 36px;
+  width: 115px;
+}
+
+.addToCartBtn {
+  width: 100%;
+  background: #fff;
+  color: #5c9f85;
+  border: 1px solid #5c9f85;
+  border-radius: 6px;
+  padding: 8px 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.addToCartBtn:hover {
+  background: #e0e0e0;
+}
