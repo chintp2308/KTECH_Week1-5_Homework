@@ -7,7 +7,7 @@ const ProductGrid = () => {
   return (
     <>
       <CartIcon />
-      <div className={styles.productGrid} style={{ zIndex: 0 }}>
+      <div className={styles.productGrid}>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

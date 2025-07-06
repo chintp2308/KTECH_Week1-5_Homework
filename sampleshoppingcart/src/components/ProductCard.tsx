@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import type { Product } from "../types/Product";
 import styles from "./ProductCard.module.css";
-import { useCart } from "../../context/CartContext"; // hook đã tách đúng chuẩn
+import { useCart } from "../../context/CartContext";
 
 interface ProductCardProps {
   product: Product;
